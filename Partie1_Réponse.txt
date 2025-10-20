@@ -1,0 +1,94 @@
+Partie 1: 
+
+1. Qu’est-ce que JavaScript et quel est son rôle dans le développement web ?
+JavaScript est un langage de programmation utilisé pour rendre les pages web interactives et dynamiques.
+Il permet de gérer les événements, de modifier le contenu HTML et d’ajouter des effets visuels pour améliorer l’expérience utilisateur.
+
+2. Comment utilise-t-on les media queries en CSS pour rendre un site responsive ?
+Les media queries permettent d’adapter le style d’un site selon la taille de l’écran (ordinateur, tablette, téléphone).
+Elles permettent de rendre le site responsive sur l"écran. 
+Exemple :
+```css
+@media (max-width: 768px) {
+  body { font-size: 14px; }
+} 
+
+3. Comment créer une grille de mise en page en CSS ?
+On crée une grille de mise en page avec la propriété CSS display grid pour organiser le contenu en lignes et en colonne.
+Exemple :
+```css
+.container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 10px;
+}
+
+4. Comment utilise-t-on les pseudo-classes en CSS ?
+Les pseudo-classes servent à modifier le style d"un élément selon une action ou un état particulier d"un élément donné.
+Exemple :
+```css
+a:hover { color: red; }
+
+
+5. Qu’est-ce que HTML et quel est son rôle ?
+HTML (HyperText Markup Language) est le langage qui sert à structurer le contenu d’une page web.
+Il sert à organiser les titres, paragraphes, images et liens.
+
+6. Quelles sont les balises HTML de base ?
+Les balises HTML de base sont :
+<html>, <head>, <title>, <body>, <h1> à <h6>, <p>, <img>, <a>, <div>, <span>.
+Elles permettent de structurer et d’afficher les éléments du site.
+
+7. Comment insérer une image en HTML ?
+Pour insérer une image en HTML, on utilise la balise <img> avec le chemin de l"image qui est <src> et une description de l"image avec l’attribut alt.
+Exemple:
+<img src="image.jpg" alt="Description de l’image">
+
+8. Comment créer un lien hypertexte en HTML ?
+Pour créer un lien hypertexte en HTML, on utilise la balise <a> avec l"adresse du lien.
+Exemple:
+<a href="https://exemple.com">Visitez le site</a>
+
+
+9. Qu’est-ce que le modèle de boîte (box model) en CSS ?
+Le modèle de boîte (box model) en CSS décrit la structure d"un élément.
+Il comprend :
+-le contenu
+-Padding : l’espace intérieur
+-Border : la bordure
+-Margin : l’espace extérieur
+
+
+10. Quelle est la différence entre display: block et display: inline ?
+display: block fait que l'élément prend toute la largeur et commence sur une nouvelle linge, tandis que
+display: inline laisse l'élément sur la même ligne que les autres éléments.
+
+
+11. Comment centrer un élément en CSS ?
+Pour centrer un élément en CSS, on peut utiliser text-align: center pour le texte ou margin: auto pour un bloc.
+Exemple
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+12. Qu’est-ce que le responsive design ?
+Le responsive design est une méthode de conception qui permet à un site web de s'adapter automatiquement à tous les types d'écrans de l’utilisateur (téléphone, tablette, ordinateur).
+
+13. Quelle est la différence entre inline et block ?
+Un élément inline reste sur la même ligne que les autres alors qu'un élément block commence toujours sur une nouvelle ligne et prend toute la largeur disponible.
+
+14. À quoi sert la propriété float en CSS ?
+La propriété float en CSS permet de placer un élément à gauche ou à droite d’un autre pour que le texte s'enroule autour.
+Exemple:
+.image { float: left; margin-right: 10px; }
+
+
+15. Quels sont les composants du modèle de boîte CSS ?
+Le modèle de boîte CSS se compose de :
+-Content : le contenu (texte, image, etc.)
+-Padding : l’espace intérieur autour du contenu
+-Border : la bordure entourant le padding
+-Margin : l’espace extérieur autour de la boîte
